@@ -1,0 +1,20 @@
+﻿@model RoleUpdateViewModel
+@{
+    Layout = null;
+}
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+<div class="container">
+    <br />
+    <h3>Rol Güncelleme Sayfası</h3>
+    <br /><br />
+    <form method="post">
+        <input type="hidden" readonly class="form-control" asp-for="Id" />
+        <br />
+        <label>Role Adı</label>
+        <input type="text" class="form-control" asp-for="Name" />
+        <br />
+        <button type="submit" class="btn btn-info">Güncelle</button>
+    </form>
+</div>

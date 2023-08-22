@@ -1,0 +1,22 @@
+﻿@model Casgem_IdentityRole.Models.LoginViewModel
+@{
+    Layout = null;
+}
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+
+<div class="container">
+    <br />
+    <h3>Giriş Sayfası</h3>
+    <br /><br />
+    <form method="post">
+        <label>Kullanıcı Adınız</label>
+        <input type="text" class="form-control" name="UserName" />
+        <br />
+        <label>Password</label>
+        <input type="password" class="form-control" name="Password" />
+        <br />
+        <button type="submit" class="btn btn-success">Giriş Yap</button>
+    </form>
+</div>

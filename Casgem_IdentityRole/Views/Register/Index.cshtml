@@ -1,0 +1,25 @@
+﻿@model Casgem_IdentityRole.Models.RegisterViewModel
+@{
+    Layout = null;
+}
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+<div class="container">
+    <h3>Kayıt olma Sayfası</h3>
+    <br /><br />
+<form method="post">
+    <label>Adı Soyadı</label>
+    <input type="text" class="form-control" name="NameSurname" />
+    <br />
+    <label>Mail</label>
+    <input type="text" class="form-control" name="Mail" />
+    <br />
+    <label>Kullanıcı Adınız</label>
+    <input type="text" class="form-control" name="UserName" />
+    <br />
+    <label>Password</label>
+    <input type="password" class="form-control" name="Password" />
+    <br />
+    <button type="submit" class="btn btn-info">Kaydet</button>
+</form>
+</div>
